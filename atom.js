@@ -11,12 +11,12 @@ window.onload = async () => {
         coinType: 118,
     },
     bech32Config: {
-        bech32PrefixAccAddr: "coho",
-        bech32PrefixAccPub: "coho" + "pub",
-        bech32PrefixValAddr: "coho" + "valoper",
-        bech32PrefixValPub: "coho" + "valoperpub",
-        bech32PrefixConsAddr: "coho" + "valcons",
-        bech32PrefixConsPub: "coho" + "valconspub",
+        bech32PrefixAccAddr: "cosmos",
+        bech32PrefixAccPub: "cosmos" + "pub",
+        bech32PrefixValAddr: "cosmos" + "valoper",
+        bech32PrefixValPub: "cosmos" + "valoperpub",
+        bech32PrefixConsAddr: "cosmos" + "valcons",
+        bech32PrefixConsPub: "cosmos" + "valconspub",
     },
     currencies: [ 
         { 
